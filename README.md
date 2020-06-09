@@ -6,6 +6,8 @@ Generate csv report from severall check_mk remote sites using **lq** (livestatus
 ## Components of this project:
 * inventory
 * playbook
+* webserver
+
 
 ### Inventory
 Has next template. It can be customized as you need. 
@@ -99,3 +101,24 @@ hostname_webserver
         mode: '644'
 
 ```
+
+### webserver
+For publishing report, I created a simple html webpage with a link to it.
+```
+<html>
+<head>
+</head>
+<body>
+<h1>Reporte Generado</h1>
+<p>Descargar <a href="/reporte/reporte.csv">aqui</a></p>
+</body>
+</html>
+```
+Folder structure of apache site:
+```
+.
+├── index.html
+└── reporte
+    └── reporte.csv
+```
+
