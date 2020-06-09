@@ -126,4 +126,4 @@ Folder structure of apache site:
 ```
 ansible-playbook playbook.yml -i Inventory
 ```
-
+And let the magic happen :-)
