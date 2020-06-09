@@ -122,3 +122,8 @@ Folder structure of apache site:
     └── reporte.csv
 ```
 
+## Usage:
+```
+ansible-playbook playbook.yml -i Inventory
+```
+
