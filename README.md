@@ -103,7 +103,7 @@ hostname_webserver
 ```
 
 ### webserver
-For publishing report, I created a simple html webpage with a link to it.
+For publishing report, I created a simple html webpage with a link.
 ```
 <html>
 <head>
